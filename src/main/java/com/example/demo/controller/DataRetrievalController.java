@@ -18,7 +18,7 @@ public class DataRetrievalController
     @Autowired
     DataRetrievalService dataRetrievalService;
 
-    @GetMapping("/getStocks")
+    @GetMapping("/getDetails")
     public List<Details> getStocks()
     {
         return dataRetrievalService.getDetailsData();
